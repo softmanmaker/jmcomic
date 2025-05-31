@@ -6,7 +6,6 @@ openai
 requests
 jmcomic
 img2pdf
-zipfile
 opencv-python
 wget
 zhconv
