@@ -38,7 +38,6 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 conn = sqlite3.connect(os.path.join(script_dir, "albums.db"))  # 创建数据库连接
 
 config_path = os.path.join(script_dir, "settings.json")
-config_path = os.path.join(script_dir, "../../global_settings.json")
 with open(config_path, "r", encoding="utf-8") as f:
     config = json.load(f)
 CD_SECONDS = config["cd_seconds"]
