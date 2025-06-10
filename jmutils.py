@@ -157,6 +157,8 @@ class RuleLogicExpression:
                 c = "("
             elif c == "）":
                 c = ")"
+            elif c == "'":
+                c = "''"
             if c in symbols:
                 if value:
                     value_stack.append(self.Node(value))
